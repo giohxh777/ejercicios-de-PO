@@ -81,4 +81,5 @@ while pasta.get_coccion() < 100:
 
 if pasta.get_coccion() == 100:
     print("\nCombate culinario finalizado")
+
     print("La pasta ha sido servida con éxito.")
