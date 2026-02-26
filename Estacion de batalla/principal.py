@@ -83,3 +83,10 @@ if pasta.get_coccion() == 100:
     print("\nCombate culinario finalizado")
 
     print("La pasta ha sido servida con éxito.")
+def imprimir_estado_final():
+    print("\nEstado final de los ingredientes:")
+    print(f"Cebolla: Vida = {cebolla.get_vida()}, Estado = {cebolla.get_estado()}")
+    print(f"Tomate: Vida = {tomate.get_vida()}, Estado = {tomate.get_estado()}")
+    print(f"Pasta: Cocción = {pasta.get_coccion()}%")
+    
+    
